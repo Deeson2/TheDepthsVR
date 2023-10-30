@@ -21,8 +21,8 @@ public class Bag : MonoBehaviour
         audioSource.PlayOneShot(itemSound);
         go.SetActive(false);
 
-        ChangeText.changeTextPath();
-        firstItem = true
+        //ChangeText.changeTextPath();
+        firstItem = true;
         }
 
         else

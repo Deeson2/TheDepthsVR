@@ -42,14 +42,14 @@ public class ChangeText : MonoBehaviour
 
     }
 
-    public static void changeTextBackpack()
+    public void changeTextBackpack()
     {
         HasGrabbedFlashlight = true;
 
         Info.text = "Now I need me bag <br>off my back";
     }
 
-    public static void changeTextBook()
+    public void changeTextBook()
     {
         Info.text = "I should put the book <br>in my bag";
     }

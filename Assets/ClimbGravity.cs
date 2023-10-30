@@ -4,52 +4,15 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
-//public class ClimbGravity : MonoBehaviour
-//{
-  //public GameObject Rb;
+public class ClimbGravity : MonoBehaviour
+{
 
-  
-  //void Start ()
-  //{
-    //Rb = GetComponent<Rigidbody>();
+  public CharacterController character;
 
-    //if(Rb != null)
-    //{
-      //this.Rigidbody.useGravity=true;
-    //}
+  Vector3 velocity;
+  public void FixedUpdate()
+  {
+    velocity.y = -3f;
+  }
 
-    //else
-    //{
-      //this.Rigidbody.useGravity=true;
-    //}
-  //}
-
-  //void GrabHold (SelectEnterEventArgs args)
- // {
-      
-      //if(Rb != null)
-      //{
-        //this.Rigidbody.useGravity=false;
-      //}
-
-      //else
-      //{
-        //this.Rigidbody.useGravity=false;
-      //}
-
-  //}
-
-  //void LetGoHold (SelectExitEventArgs args)
-  //{
-  
-      //if(Rb != null)
-      //{
-        //this.Rigidbody.useGravity=true;
-      //}
-
-      //else
-      //{
-        //this.Rigidbody.useGravity=true;
-      //}
-  //}
-//}
+}

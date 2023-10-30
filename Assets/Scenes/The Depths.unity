@@ -12398,6 +12398,7 @@ GameObject:
   - component: {fileID: 1331630213}
   - component: {fileID: 1331630214}
   - component: {fileID: 1331630219}
+  - component: {fileID: 1331630220}
   m_Layer: 6
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -12620,6 +12621,19 @@ MonoBehaviour:
       m_AllowFreeYMovement: 1
       m_AllowFreeZMovement: 1
     m_Variable: {fileID: 0}
+--- !u!114 &1331630220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331630206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d525a7edb3a9c745b67f8e7afe911ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1331630210}
 --- !u!1001 &1333827008
 PrefabInstance:
   m_ObjectHideFlags: 0
